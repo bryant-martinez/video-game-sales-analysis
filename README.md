@@ -1,52 +1,36 @@
-# Megaline Telecom Plan Analysis
+# Análisis de planes de telefonía de Megaline
 
-Data analysis project developed in Python to evaluate customer behavior and determine which prepaid telecom plan generates better commercial performance for Megaline.
+Proyecto académico individual de Bryant Martínez Tena desarrollado en TripleTen. Comparé el consumo y los ingresos mensuales de Surf y Ultimate.
 
-## Project Overview
+## Evidencia
 
-Megaline offers two prepaid plans: Surf and Ultimate. The objective of this project was to analyze customer usage patterns, compare plan performance and identify which plan provides higher revenue potential based on user behavior.
+[Ver notebook completo](videogames_sales.ipynb). El nombre histórico del archivo y del repositorio corresponde a videojuegos, pero el contenido es de telecomunicaciones.
 
-The project includes data cleaning, exploratory data analysis, statistical analysis and business-oriented interpretation of results.
+[Ver proyecto de videojuegos](https://github.com/bryant-martinez/megaline-telecom-analysis/blob/main/video_games.ipynb).
 
-## Objectives
+## Mi contribución
 
-* Clean and preprocess telecom customer datasets
-* Analyze user behavior across different prepaid plans
-* Compare revenue and usage patterns between Surf and Ultimate plans
-* Evaluate calls, messages and internet consumption trends
-* Support business decision-making using statistical analysis
+- Preparé cinco tablas de usuarios, planes, llamadas, mensajes e internet.
+- Convertí fechas, agregué consumo por usuario y mes y calculé cargos según las tarifas.
+- Comparé distribuciones e ingresos con visualizaciones y pruebas de hipótesis.
 
-## Tools Used
+## Resultado y decisiones
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* SciPy
-* Jupyter Notebook
+El notebook reporta consumo medio de aproximadamente 16,649 MB para Surf y 17,271 MB para Ultimate. Surf supera en promedio sus 15 GB incluidos y Ultimate queda por debajo de sus 30 GB. Esto permite explorar el papel de los excedentes en los ingresos. Apliqué reglas de redondeo de facturación y conservé los cargos monetarios con sus decimales.
 
-## Analysis Performed
+## Alcance
 
-* Data cleaning and preprocessing
-* Exploratory Data Analysis (EDA)
-* Statistical comparisons between plans
-* Revenue analysis
-* Visualization of customer usage patterns
-* Hypothesis testing and interpretation of results
+Análisis histórico de una muestra académica. Las asociaciones observadas no demuestran causalidad. El notebook conserva el historial de revisión del curso.
 
-## Main Insights
+## Herramientas y archivos
 
-* Customer behavior differed significantly between Surf and Ultimate plans.
-* Internet usage represented one of the most important variables in customer consumption patterns.
-* Statistical analysis helped identify which plan generated stronger commercial performance and revenue potential.
+Python, pandas, NumPy, Matplotlib, SciPy y Jupyter Notebook.
 
-## Files Included
+- `videogames_sales.ipynb` contiene el análisis.
+- Los cinco archivos `megaline_*.csv` contienen los datos.
 
-* `plan_surf_ultimate.ipynb` → Full Jupyter Notebook containing analysis, visualizations and conclusions.
-* Datasets used for telecom customer analysis.
-* Visual outputs and exploratory graphs.
+Para reproducirlo, instala pandas, numpy, matplotlib, scipy y jupyter. Abre el notebook, ajusta las rutas a los CSV de esta carpeta y ejecuta las celdas en orden.
 
-## Author
+## Autor
 
-Bryant Martínez
-Physics & Mathematics Graduate | Biomedical Engineering MSc | Aspiring Data Scientist
+[Bryant Martínez Tena](https://www.linkedin.com/in/bryant-martinez/)
